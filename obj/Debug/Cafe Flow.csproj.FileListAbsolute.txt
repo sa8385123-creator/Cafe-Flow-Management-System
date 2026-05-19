@@ -1,0 +1,49 @@
+C:\Users\User\source\repos\Cafe Flow\Cafe Flow\bin\Debug\Cafe Flow.exe.config
+C:\Users\User\source\repos\Cafe Flow\Cafe Flow\bin\Debug\Cafe Flow.exe
+C:\Users\User\source\repos\Cafe Flow\Cafe Flow\bin\Debug\Cafe Flow.pdb
+C:\Users\User\source\repos\Cafe Flow\Cafe Flow\obj\Debug\Cafe Flow.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\Cafe Flow\Cafe Flow\obj\Debug\Cafe_Flow.Login.resources
+C:\Users\User\source\repos\Cafe Flow\Cafe Flow\obj\Debug\Cafe_Flow.Properties.Resources.resources
+C:\Users\User\source\repos\Cafe Flow\Cafe Flow\obj\Debug\Cafe Flow.csproj.GenerateResource.cache
+C:\Users\User\source\repos\Cafe Flow\Cafe Flow\obj\Debug\Cafe Flow.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Cafe Flow\Cafe Flow\obj\Debug\Cafe Flow.exe
+C:\Users\User\source\repos\Cafe Flow\Cafe Flow\obj\Debug\Cafe Flow.pdb
+C:\Users\User\source\repos\Cafe Flow\Cafe Flow\obj\Debug\Cafe_Flow.Forms.Dashboard.resources
+C:\Users\User\source\repos\Cafe Flow\Cafe Flow\obj\Debug\Cafe_Flow.Forms.Products.resources
+C:\Users\User\source\repos\Cafe Flow\Cafe Flow\obj\Debug\Cafe_Flow.Forms.Orders.resources
+C:\Users\User\source\repos\Cafe Flow\Cafe Flow\obj\Debug\Cafe_Flow.Forms.Customers.resources
+C:\Users\User\source\repos\Cafe Flow\Cafe Flow\obj\Debug\Cafe_Flow.Forms.Reports.resources
+C:\Users\User\source\repos\Cafe Flow\Cafe Flow\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\User\source\repos\Cafe Flow\Cafe Flow\bin\Debug\Google.Protobuf.dll
+C:\Users\User\source\repos\Cafe Flow\Cafe Flow\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\User\source\repos\Cafe Flow\Cafe Flow\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\User\source\repos\Cafe Flow\Cafe Flow\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\User\source\repos\Cafe Flow\Cafe Flow\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\User\source\repos\Cafe Flow\Cafe Flow\bin\Debug\MySql.Data.dll
+C:\Users\User\source\repos\Cafe Flow\Cafe Flow\bin\Debug\System.Buffers.dll
+C:\Users\User\source\repos\Cafe Flow\Cafe Flow\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\User\source\repos\Cafe Flow\Cafe Flow\bin\Debug\System.IO.Pipelines.dll
+C:\Users\User\source\repos\Cafe Flow\Cafe Flow\bin\Debug\System.Memory.dll
+C:\Users\User\source\repos\Cafe Flow\Cafe Flow\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\User\source\repos\Cafe Flow\Cafe Flow\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\User\source\repos\Cafe Flow\Cafe Flow\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\User\source\repos\Cafe Flow\Cafe Flow\bin\Debug\ZstdSharp.dll
+C:\Users\User\source\repos\Cafe Flow\Cafe Flow\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\User\source\repos\Cafe Flow\Cafe Flow\bin\Debug\Google.Protobuf.pdb
+C:\Users\User\source\repos\Cafe Flow\Cafe Flow\bin\Debug\Google.Protobuf.xml
+C:\Users\User\source\repos\Cafe Flow\Cafe Flow\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\User\source\repos\Cafe Flow\Cafe Flow\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\User\source\repos\Cafe Flow\Cafe Flow\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\User\source\repos\Cafe Flow\Cafe Flow\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\User\source\repos\Cafe Flow\Cafe Flow\bin\Debug\MySql.Data.xml
+C:\Users\User\source\repos\Cafe Flow\Cafe Flow\bin\Debug\System.Buffers.xml
+C:\Users\User\source\repos\Cafe Flow\Cafe Flow\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\User\source\repos\Cafe Flow\Cafe Flow\bin\Debug\System.IO.Pipelines.xml
+C:\Users\User\source\repos\Cafe Flow\Cafe Flow\bin\Debug\System.Memory.xml
+C:\Users\User\source\repos\Cafe Flow\Cafe Flow\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\User\source\repos\Cafe Flow\Cafe Flow\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\User\source\repos\Cafe Flow\Cafe Flow\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\User\source\repos\Cafe Flow\Cafe Flow\obj\Debug\Cafe Flow.csproj.Up2Date
+C:\Users\User\source\repos\Cafe Flow\Cafe Flow\bin\Debug\BCrypt.Net-Next.dll
+C:\Users\User\source\repos\Cafe Flow\Cafe Flow\bin\Debug\BCrypt.Net-Next.xml
+C:\Users\User\source\repos\Cafe Flow\Cafe Flow\obj\Debug\Cafe_Flow.Forms.Users.resources
