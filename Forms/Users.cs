@@ -40,7 +40,7 @@ namespace Cafe_Flow.Forms
        txtPassword.Text.Trim() == "" ||
        cmbRole.Text == "")
             {
-                MessageBox.Show("Fill all fields");
+                MessageBox.Show("Fill all fields","warning",MessageBoxButtons.OK,MessageBoxIcon.Warning);
                 return;
             }
 

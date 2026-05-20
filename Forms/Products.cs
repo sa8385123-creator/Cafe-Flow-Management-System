@@ -14,7 +14,6 @@ namespace Cafe_Flow.Forms
 {
     public partial class Products : Form
     {
-       // public static List<ProductManager> productList = new List<ProductManager>();
         public Products()
         {
             InitializeComponent();
