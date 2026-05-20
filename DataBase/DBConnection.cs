@@ -1,28 +1,4 @@
-﻿//using MySql.Data.MySqlClient;
-//using System;
-//using System.Collections.Generic;
-//using System.Linq;
-//using System.Text;
-//using System.Threading.Tasks;
-
-//namespace Cafe_Flow.DataBase
-//{
-//    public class DBConnection
-//    {
-//        protected MySqlConnection con;
-
-//        public void OpenConnection()
-//        {
-//            con = new MySqlConnection("server=localhost;database=CafeFlowDB;uid=root;pwd=salman123@");
-//            con.Open();
-//        }
-
-//        public void CloseConnection()
-//        {
-//            con.Close();
-//        }
-//    }
-//}
+﻿
 using MySql.Data.MySqlClient;
 using System;
 using System.Data;
