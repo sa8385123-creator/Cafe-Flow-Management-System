@@ -50,7 +50,7 @@ namespace Cafe_Flow
 
                     MessageBox.Show("Login Successful", "Success",MessageBoxButtons.OK,MessageBoxIcon.Information);
 
-                    Dashboard d = new Dashboard();
+                    Dashboard d = new Dashboard(); // open dashboard
                     d.Show();
 
                     this.Hide();
