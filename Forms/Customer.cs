@@ -27,11 +27,11 @@ namespace Cafe_Flow.Forms
 
             var data = db.GetCustomers();
             // Reset DataGridView binding to ensure fresh data reload
-            dgvCustomers.AutoGenerateColumns = true;
-            dgvCustomers.DataSource = null;
-            dgvCustomers.DataSource = data;
+            DgvCustomers.AutoGenerateColumns = true;
+            DgvCustomers.DataSource = null;
+            DgvCustomers.DataSource = data;
 
-            dgvCustomers.Refresh();
+            DgvCustomers.Refresh();
         }
         void ClearFields()
         {
@@ -39,7 +39,7 @@ namespace Cafe_Flow.Forms
             txtphone.Clear();
             txtAddress.Clear();
         }
-        private void btnAdd_Click(object sender, EventArgs e)
+        private void BtnAdd_Click(object sender, EventArgs e)
         {
             // Validate that no input field is empty before inserting record
             if (txtCustomerName.Text.Trim() == "" ||
@@ -65,17 +65,17 @@ namespace Cafe_Flow.Forms
         }
         // When user clicks a row, load selected customer data into input fields
         // This enables Update/Delete operations on selected record
-        private void dgvCustomers_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private void DgvCustomers_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             if (e.RowIndex >= 0)
             {
-                txtCustomerName.Text = dgvCustomers.Rows[e.RowIndex].Cells[0].Value.ToString();
-                txtphone.Text = dgvCustomers.Rows[e.RowIndex].Cells[1].Value.ToString();
-                txtAddress.Text = dgvCustomers.Rows[e.RowIndex].Cells[2].Value.ToString();
+                txtCustomerName.Text = DgvCustomers.Rows[e.RowIndex].Cells[0].Value.ToString();
+                txtphone.Text = DgvCustomers.Rows[e.RowIndex].Cells[1].Value.ToString();
+                txtAddress.Text = DgvCustomers.Rows[e.RowIndex].Cells[2].Value.ToString();
             }
         }
 
-        private void btnUpdate_Click(object sender, EventArgs e)
+        private void BtnUpdate_Click(object sender, EventArgs e)
         {
             if (txtCustomerName.Text == "" || txtphone.Text == "" || txtAddress.Text == "")
             {
@@ -91,15 +91,15 @@ namespace Cafe_Flow.Forms
 
                 CustomerDB db = new CustomerDB();
 
-                db.UpdateCustomer(c, dgvCustomers.CurrentRow.Cells[0].Value.ToString());
-
+                db.UpdateCustomer(c, DgvCustomers.CurrentRow.Cells[0].Value.ToString());
+                
                 LoadGrid();
                 ClearFields();
                 MessageBox.Show("Customer Updated Successfully");
             }
         }
-
-        private void btnDelete_Click(object sender, EventArgs e)
+        
+        private void BtnDelete_Click(object sender, EventArgs e)
         {
             if (txtCustomerName.Text == "" || txtphone.Text == "" || txtAddress.Text == "")
             {
@@ -109,7 +109,7 @@ namespace Cafe_Flow.Forms
             {
                 CustomerDB db = new CustomerDB();
 
-                db.DeleteCustomer(dgvCustomers.CurrentRow.Cells[0].Value.ToString());
+                db.DeleteCustomer(DgvCustomers.CurrentRow.Cells[0].Value.ToString());
 
                 LoadGrid();
                 ClearFields();
@@ -117,11 +117,18 @@ namespace Cafe_Flow.Forms
             }
         }
 
-        private void btnSearch_Click(object sender, EventArgs e)
+        private void BtnSearch_Click(object sender, EventArgs e)
         {
-            CustomerDB db = new CustomerDB();
-            // Perform search operation and display matching customer records in DataGridView
-            dgvCustomers.DataSource = db.SearchCustomers(txtSearch.Text); 
+            if (txtSearch.Text == "")
+            {
+                MessageBox.Show("Plz write something to search", "Missing", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+            else
+            {
+                CustomerDB db = new CustomerDB();
+                // Perform search operation and display matching customer records in DataGridView
+                DgvCustomers.DataSource = db.SearchCustomers(txtSearch.Text);
+            }
         }
         // Restrict access to Customers form based on user role
         // Only Admin users are allowed to access this form

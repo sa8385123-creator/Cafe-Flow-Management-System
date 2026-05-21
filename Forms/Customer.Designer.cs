@@ -31,9 +31,9 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Customers));
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panelCustomer = new System.Windows.Forms.Panel();
-            this.btnDelete = new System.Windows.Forms.Button();
-            this.btnUpdate = new System.Windows.Forms.Button();
-            this.btnAdd = new System.Windows.Forms.Button();
+            this.BtnDelete = new System.Windows.Forms.Button();
+            this.BtnUpdate = new System.Windows.Forms.Button();
+            this.BtnAdd = new System.Windows.Forms.Button();
             this.lblAddress = new System.Windows.Forms.Label();
             this.txtphone = new System.Windows.Forms.TextBox();
             this.lblPhoneno = new System.Windows.Forms.Label();
@@ -41,19 +41,19 @@
             this.lblCustomerName = new System.Windows.Forms.Label();
             this.lblCustomer = new System.Windows.Forms.Label();
             this.txtAddress = new System.Windows.Forms.TextBox();
-            this.dgvCustomers = new System.Windows.Forms.DataGridView();
+            this.DgvCustomers = new System.Windows.Forms.DataGridView();
             this.txtSearch = new System.Windows.Forms.TextBox();
-            this.btnSearch = new System.Windows.Forms.Button();
+            this.BtnSearch = new System.Windows.Forms.Button();
             this.panelCustomer.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvCustomers)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DgvCustomers)).BeginInit();
             this.SuspendLayout();
             // 
             // panelCustomer
             // 
             this.panelCustomer.BackColor = System.Drawing.Color.SaddleBrown;
-            this.panelCustomer.Controls.Add(this.btnDelete);
-            this.panelCustomer.Controls.Add(this.btnUpdate);
-            this.panelCustomer.Controls.Add(this.btnAdd);
+            this.panelCustomer.Controls.Add(this.BtnDelete);
+            this.panelCustomer.Controls.Add(this.BtnUpdate);
+            this.panelCustomer.Controls.Add(this.BtnAdd);
             this.panelCustomer.Controls.Add(this.lblAddress);
             this.panelCustomer.Controls.Add(this.txtphone);
             this.panelCustomer.Controls.Add(this.lblPhoneno);
@@ -66,59 +66,59 @@
             this.panelCustomer.Size = new System.Drawing.Size(320, 594);
             this.panelCustomer.TabIndex = 0;
             // 
-            // btnDelete
+            // BtnDelete
             // 
-            this.btnDelete.BackColor = System.Drawing.Color.Firebrick;
-            this.btnDelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDelete.ForeColor = System.Drawing.Color.White;
-            this.btnDelete.Image = ((System.Drawing.Image)(resources.GetObject("btnDelete.Image")));
-            this.btnDelete.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnDelete.Location = new System.Drawing.Point(30, 530);
-            this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Padding = new System.Windows.Forms.Padding(60, 0, 0, 0);
-            this.btnDelete.Size = new System.Drawing.Size(250, 40);
-            this.btnDelete.TabIndex = 8;
-            this.btnDelete.Text = "Delete";
-            this.btnDelete.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnDelete.UseVisualStyleBackColor = false;
-            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
+            this.BtnDelete.BackColor = System.Drawing.Color.Firebrick;
+            this.BtnDelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnDelete.ForeColor = System.Drawing.Color.White;
+            this.BtnDelete.Image = ((System.Drawing.Image)(resources.GetObject("BtnDelete.Image")));
+            this.BtnDelete.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnDelete.Location = new System.Drawing.Point(30, 530);
+            this.BtnDelete.Name = "BtnDelete";
+            this.BtnDelete.Padding = new System.Windows.Forms.Padding(60, 0, 0, 0);
+            this.BtnDelete.Size = new System.Drawing.Size(250, 40);
+            this.BtnDelete.TabIndex = 8;
+            this.BtnDelete.Text = "Delete";
+            this.BtnDelete.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.BtnDelete.UseVisualStyleBackColor = false;
+            this.BtnDelete.Click += new System.EventHandler(this.BtnDelete_Click);
             // 
-            // btnUpdate
+            // BtnUpdate
             // 
-            this.btnUpdate.BackColor = System.Drawing.Color.Goldenrod;
-            this.btnUpdate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnUpdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnUpdate.ForeColor = System.Drawing.Color.White;
-            this.btnUpdate.Image = ((System.Drawing.Image)(resources.GetObject("btnUpdate.Image")));
-            this.btnUpdate.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnUpdate.Location = new System.Drawing.Point(30, 480);
-            this.btnUpdate.Name = "btnUpdate";
-            this.btnUpdate.Padding = new System.Windows.Forms.Padding(60, 0, 0, 0);
-            this.btnUpdate.Size = new System.Drawing.Size(250, 40);
-            this.btnUpdate.TabIndex = 7;
-            this.btnUpdate.Text = "Update";
-            this.btnUpdate.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnUpdate.UseVisualStyleBackColor = false;
-            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
+            this.BtnUpdate.BackColor = System.Drawing.Color.Goldenrod;
+            this.BtnUpdate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnUpdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnUpdate.ForeColor = System.Drawing.Color.White;
+            this.BtnUpdate.Image = ((System.Drawing.Image)(resources.GetObject("BtnUpdate.Image")));
+            this.BtnUpdate.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnUpdate.Location = new System.Drawing.Point(30, 480);
+            this.BtnUpdate.Name = "BtnUpdate";
+            this.BtnUpdate.Padding = new System.Windows.Forms.Padding(60, 0, 0, 0);
+            this.BtnUpdate.Size = new System.Drawing.Size(250, 40);
+            this.BtnUpdate.TabIndex = 7;
+            this.BtnUpdate.Text = "Update";
+            this.BtnUpdate.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.BtnUpdate.UseVisualStyleBackColor = false;
+            this.BtnUpdate.Click += new System.EventHandler(this.BtnUpdate_Click);
             // 
-            // btnAdd
+            // BtnAdd
             // 
-            this.btnAdd.BackColor = System.Drawing.Color.Peru;
-            this.btnAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAdd.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAdd.ForeColor = System.Drawing.Color.White;
-            this.btnAdd.Image = ((System.Drawing.Image)(resources.GetObject("btnAdd.Image")));
-            this.btnAdd.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAdd.Location = new System.Drawing.Point(30, 430);
-            this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Padding = new System.Windows.Forms.Padding(60, 0, 0, 0);
-            this.btnAdd.Size = new System.Drawing.Size(250, 40);
-            this.btnAdd.TabIndex = 6;
-            this.btnAdd.Text = "Add";
-            this.btnAdd.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnAdd.UseVisualStyleBackColor = false;
-            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
+            this.BtnAdd.BackColor = System.Drawing.Color.Peru;
+            this.BtnAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnAdd.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnAdd.ForeColor = System.Drawing.Color.White;
+            this.BtnAdd.Image = ((System.Drawing.Image)(resources.GetObject("BtnAdd.Image")));
+            this.BtnAdd.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnAdd.Location = new System.Drawing.Point(30, 430);
+            this.BtnAdd.Name = "BtnAdd";
+            this.BtnAdd.Padding = new System.Windows.Forms.Padding(60, 0, 0, 0);
+            this.BtnAdd.Size = new System.Drawing.Size(250, 40);
+            this.BtnAdd.TabIndex = 6;
+            this.BtnAdd.Text = "Add";
+            this.BtnAdd.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.BtnAdd.UseVisualStyleBackColor = false;
+            this.BtnAdd.Click += new System.EventHandler(this.BtnAdd_Click);
             // 
             // lblAddress
             // 
@@ -186,10 +186,10 @@
             this.txtAddress.Size = new System.Drawing.Size(250, 26);
             this.txtAddress.TabIndex = 5;
             // 
-            // dgvCustomers
+            // DgvCustomers
             // 
-            this.dgvCustomers.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dgvCustomers.BackgroundColor = System.Drawing.Color.White;
+            this.DgvCustomers.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.DgvCustomers.BackgroundColor = System.Drawing.Color.White;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
             dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -197,16 +197,16 @@
             dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvCustomers.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
-            this.dgvCustomers.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvCustomers.Location = new System.Drawing.Point(350, 50);
-            this.dgvCustomers.Name = "dgvCustomers";
-            this.dgvCustomers.ReadOnly = true;
-            this.dgvCustomers.RowHeadersWidth = 62;
-            this.dgvCustomers.RowTemplate.Height = 28;
-            this.dgvCustomers.Size = new System.Drawing.Size(730, 550);
-            this.dgvCustomers.TabIndex = 6;
-            this.dgvCustomers.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvCustomers_CellContentClick);
+            this.DgvCustomers.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            this.DgvCustomers.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DgvCustomers.Location = new System.Drawing.Point(350, 50);
+            this.DgvCustomers.Name = "DgvCustomers";
+            this.DgvCustomers.ReadOnly = true;
+            this.DgvCustomers.RowHeadersWidth = 62;
+            this.DgvCustomers.RowTemplate.Height = 28;
+            this.DgvCustomers.Size = new System.Drawing.Size(730, 550);
+            this.DgvCustomers.TabIndex = 6;
+            this.DgvCustomers.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DgvCustomers_CellContentClick);
             // 
             // txtSearch
             // 
@@ -215,19 +215,19 @@
             this.txtSearch.Size = new System.Drawing.Size(200, 26);
             this.txtSearch.TabIndex = 7;
             // 
-            // btnSearch
+            // BtnSearch
             // 
-            this.btnSearch.BackColor = System.Drawing.Color.SaddleBrown;
-            this.btnSearch.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSearch.ForeColor = System.Drawing.Color.White;
-            this.btnSearch.Location = new System.Drawing.Point(556, 1);
-            this.btnSearch.Name = "btnSearch";
-            this.btnSearch.Size = new System.Drawing.Size(108, 40);
-            this.btnSearch.TabIndex = 8;
-            this.btnSearch.Text = "Search";
-            this.btnSearch.UseVisualStyleBackColor = false;
-            this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
+            this.BtnSearch.BackColor = System.Drawing.Color.SaddleBrown;
+            this.BtnSearch.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnSearch.ForeColor = System.Drawing.Color.White;
+            this.BtnSearch.Location = new System.Drawing.Point(556, 1);
+            this.BtnSearch.Name = "BtnSearch";
+            this.BtnSearch.Size = new System.Drawing.Size(108, 40);
+            this.BtnSearch.TabIndex = 8;
+            this.BtnSearch.Text = "Search";
+            this.BtnSearch.UseVisualStyleBackColor = false;
+            this.BtnSearch.Click += new System.EventHandler(this.BtnSearch_Click);
             // 
             // Customers
             // 
@@ -235,9 +235,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ClientSize = new System.Drawing.Size(1078, 594);
-            this.Controls.Add(this.btnSearch);
+            this.Controls.Add(this.BtnSearch);
             this.Controls.Add(this.txtSearch);
-            this.Controls.Add(this.dgvCustomers);
+            this.Controls.Add(this.DgvCustomers);
             this.Controls.Add(this.txtAddress);
             this.Controls.Add(this.panelCustomer);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -248,7 +248,7 @@
             this.Load += new System.EventHandler(this.Customers_Load);
             this.panelCustomer.ResumeLayout(false);
             this.panelCustomer.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvCustomers)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DgvCustomers)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -261,14 +261,14 @@
         private System.Windows.Forms.Label lblPhoneno;
         private System.Windows.Forms.TextBox txtCustomerName;
         private System.Windows.Forms.Label lblCustomerName;
-        private System.Windows.Forms.Button btnAdd;
+        private System.Windows.Forms.Button BtnAdd;
         private System.Windows.Forms.Label lblAddress;
         private System.Windows.Forms.TextBox txtphone;
         private System.Windows.Forms.TextBox txtAddress;
-        private System.Windows.Forms.Button btnDelete;
-        private System.Windows.Forms.Button btnUpdate;
-        private System.Windows.Forms.DataGridView dgvCustomers;
+        private System.Windows.Forms.Button BtnDelete;
+        private System.Windows.Forms.Button BtnUpdate;
+        private System.Windows.Forms.DataGridView DgvCustomers;
         private System.Windows.Forms.TextBox txtSearch;
-        private System.Windows.Forms.Button btnSearch;
+        private System.Windows.Forms.Button BtnSearch;
     }
 }
